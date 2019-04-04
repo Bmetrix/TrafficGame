@@ -1,15 +1,21 @@
 package CrossRoad;
-
+import java.awt.*;
 import CrossRoad.CrossRoad;
+import javax.swing.*;
+import Car.*;
 
-/**
- * Created by zak on 04.04.2019.
- */
 public class DefaultCrossRoad extends CrossRoad {
+
 
     public DefaultCrossRoad()
     {
+        super();
+    }
 
+    public void carGenerator()
+    {
+
+        Car c = new DefaultCar();
     }
 
 

@@ -2,7 +2,7 @@ package Car;
 
 import java.awt.*;
 
-public abstract class Car {
+public class Car {
 
     private Color color;
 
