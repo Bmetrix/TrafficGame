@@ -1,3 +1,5 @@
+import CrossRoad.CrossRoad;
+import CrossRoad.DefaultCrossRoad;
 import jdk.nashorn.internal.scripts.JO;
 
 import javax.swing.*;
@@ -8,6 +10,9 @@ import java.awt.event.ActionListener;
 
 public class Window extends JFrame
 {
+
+  //  CrossRoad crossRoad;
+    JFrame gameWindow;
 
     private JButton defaultCross;
 
@@ -31,7 +36,14 @@ public class Window extends JFrame
 
             if(e.getSource() == defaultCross)
             {
-
+                setVisible(false);
+                gameWindow = new JFrame();
+                CrossRoad crossRoad = new DefaultCrossRoad();
+                crossRoad.carGenerator();
+                gameWindow.add(crossRoad);
+                gameWindow.setSize(300,300);
+                gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                gameWindow.setVisible(true);
 
             }else
             {
