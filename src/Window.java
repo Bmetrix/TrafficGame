@@ -36,13 +36,15 @@ public class Window extends JFrame
 
             if(e.getSource() == defaultCross)
             {
+
                 setVisible(false);
-                gameWindow = new JFrame();
                 CrossRoad crossRoad = new DefaultCrossRoad();
-                crossRoad.carGenerator();
-                gameWindow.add(crossRoad);
-                gameWindow.setSize(300,300);
+                gameWindow = new JFrame();
+                gameWindow.pack();
                 gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                gameWindow.add(crossRoad);
+                gameWindow.pack();
+                gameWindow.setResizable(false);
                 gameWindow.setVisible(true);
 
             }else

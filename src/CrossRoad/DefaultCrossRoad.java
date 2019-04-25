@@ -6,12 +6,6 @@ import Car.*;
 
 public class DefaultCrossRoad extends CrossRoad {
 
-
-    public DefaultCrossRoad()
-    {
-        super();
-    }
-
     public void carGenerator()
     {
         Car c = new DefaultCar();
