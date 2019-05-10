@@ -11,5 +11,4 @@ public class DefaultCrossRoad extends CrossRoad {
         Car c = new DefaultCar();
     }
 
-
 }
