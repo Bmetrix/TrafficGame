@@ -19,6 +19,12 @@ public abstract class CrossRoad extends JPanel {
         Graphics2D g2d = (Graphics2D) g;
         g2d.drawImage(image,0,0,  getWidth(), getHeight(), this);
 
+        s2 = new Semafor(30, 30, 30, 30, g);
+        s3 = new Semafor(400, 40, 40, 40, g);
+        s4 = new Semafor(50, 50, 50, 50, g);
+
+
+
     }
 
     public CrossRoad()
