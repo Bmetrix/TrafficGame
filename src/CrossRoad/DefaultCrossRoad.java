@@ -9,6 +9,7 @@ public class DefaultCrossRoad extends CrossRoad {
     public void carGenerator()
     {
         Car c = new DefaultCar();
+
     }
 
 }
