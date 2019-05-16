@@ -18,87 +18,104 @@ public class Semafor extends JPanel implements MouseListener
     private Color offRed;
     private Color offYellow;
     private Color offGreen;
-
-    public Semafor(int x,int y, int w, int h, Graphics g)
+    private int xa,ya;
+    public Semafor(/*int x,int y, int w, int h, Graphics g*/)
     {
-        setBounds(x,y,w,h);
+        //setBounds(x,y,w,h);
         addMouseListener(this);
         offRed = new Color(128, 0, 0);
         offYellow = new Color(192, 192, 0);
         offGreen = new Color(0, 96, 0);
         status = 0;
 
-        paintComponent(g);
+        //paintComponent(g);
     }
 
     public void paintComponent(Graphics g)
     {
+        //paint(g);
         g.setColor(new Color(43, 58, 66));
-        g.fillRoundRect(0,0,40,120,6,6);
+        g.fillRoundRect(xa+0,ya+0,40,120,6,6);
         g.setColor(Color.WHITE);
-        g.drawOval(4,5,30,30);
-        g.drawOval(4,45,30,30);
-        g.drawOval(4,85,30,30);
+        g.drawOval(xa+4,ya+5,30,30);
+        g.drawOval(xa+4,ya+45,30,30);
+        g.drawOval(xa+4,ya+85,30,30);
         drawBackground(g);
         drawIlluminatedLights(g);
     }
+    /*public void paint(Graphics g,int x, int y)
+    {
+        this.xa = x;
+        this.ya = y;
+        g.setColor(new Color(43, 58, 66));
+        g.fillRoundRect(xa+0,ya+0,40,120,6,6);
+        g.setColor(Color.WHITE);
+        g.drawOval(xa+4,ya+5,30,30);
+        g.drawOval(xa+4,ya+45,30,30);
+        g.drawOval(xa+4,ya+85,30,30);
+        drawBackground(g);
+        drawIlluminatedLights(g);
+    }*/
     public void drawBackground(Graphics g)
     {
         g.setColor(offRed);
-        g.fillOval(5, 6, 29, 29);
+        g.fillOval(xa+5, ya+6, 29, 29);
         g.setColor(Color.BLACK);
-        g.drawOval(5, 6, 29, 29);
+        g.drawOval(xa+5, ya+6, 29, 29);
         g.setColor(offYellow);
-        g.fillOval(5, 46, 29, 29);
+        g.fillOval(xa+5, ya+46, 29, 29);
         g.setColor(Color.BLACK);
-        g.drawOval(5, 46, 29, 29);
+        g.drawOval(xa+5, ya+46, 29, 29);
         g.setColor(offGreen);
-        g.fillOval(5, 85, 29, 29);
+        g.fillOval(xa+5, ya+85, 29, 29);
         g.setColor(Color.BLACK);
-        g.drawOval(5, 85, 29, 29);
+        g.drawOval(xa+5, ya+85, 29, 29);
     }
     private void drawIlluminatedLights(Graphics g) {
         if (status == 0) {
             g.setColor(Color.RED);
-            g.fillOval(5, 6, 29, 29);
+            g.fillOval(xa+5, ya+6, 29, 29);
             g.setColor(Color.BLACK);
-            g.drawOval(5, 6, 29, 29);
+            g.drawOval(xa+5, ya+6, 29, 29);
         }
         else if (status == 1)
         {
             g.setColor(offRed);
-            g.fillOval(5, 6, 29, 29);
+            g.fillOval(xa+5, ya+6, 29, 29);
             g.setColor(Color.BLACK);
-            g.drawOval(5, 6, 29,29);
+            g.drawOval(xa+5,ya+ 6, 29,29);
             g.setColor(Color.YELLOW);
-            g.fillOval(5, 45, 29, 29);
+            g.fillOval(xa+5, ya+45, 29, 29);
             g.setColor(Color.BLACK);
-            g.drawOval(5, 45, 29, 29);
+            g.drawOval(xa+5, ya+45, 29, 29);
         }
         else if (status == 2)
         {
             g.setColor(offYellow);
-            g.fillOval(5, 45, 29, 29);
+            g.fillOval(xa+5, ya+45, 29, 29);
             g.setColor(Color.BLACK);
-            g.drawOval(5, 45, 29, 29);
+            g.drawOval(xa+5, ya+45, 29, 29);
             g.setColor(Color.GREEN);
-            g.fillOval(5, 85, 29, 29);
+            g.fillOval(xa+5, ya+85, 29, 29);
             g.setColor(Color.BLACK);
-            g.drawOval(5, 85, 29, 29);
+            g.drawOval(xa+5,ya+ 85, 29, 29);
         }
         else if (status == 3)
         {
             g.setColor(offGreen);
-            g.fillOval(5, 85, 29, 29);
+            g.fillOval(xa+5, ya+85, 29, 29);
             g.setColor(Color.BLACK);
-            g.drawOval(5, 85, 29, 29);
+            g.drawOval(xa+5, ya+85, 29, 29);
             g.setColor(Color.RED);
-            g.fillOval(5, 6, 29, 29);
+            g.fillOval(xa+5,ya+ 6, 29, 29);
             g.setColor(Color.BLACK);
-            g.drawOval(5, 6,29, 29);
+            g.drawOval(xa+5, ya+6,29, 29);
         }
     }
-    public void mouseClicked(MouseEvent event) {
+
+    public void clicked()
+    {
+        //status = s;
         if (status == 0) {
             status = 1;
         }
@@ -115,6 +132,12 @@ public class Semafor extends JPanel implements MouseListener
             status = 1;
         }
         repaint();
+    }
+
+
+    @Override
+    public void mouseClicked(MouseEvent e) {
+        clicked();
     }
 
     @Override
@@ -136,6 +159,4 @@ public class Semafor extends JPanel implements MouseListener
     public void mouseExited(MouseEvent e) {
 
     }
-
-
 }
