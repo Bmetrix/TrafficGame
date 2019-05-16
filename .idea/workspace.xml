@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Semafor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Semafor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CrossRoad/Semafor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="161" column="1" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
+            <state relative-caret-position="1022">
+              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
               <folding>
                 <element signature="e#3876#3877#0" expanded="true" />
                 <element signature="e#3901#3902#0" expanded="true" />
@@ -45,15 +45,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrossRoad.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CrossRoad.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CrossRoad/CrossRoad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="79" column="13" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="13" />
+            <state relative-caret-position="682">
+              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1557987870062" expanded="false" signature="1729:1740" ph=" { " />
-                <marker date="1557987870062" expanded="false" signature="1770:1776" ph=" }" />
+                <marker date="1557989512637" expanded="false" signature="1980:1991" ph=" { " />
+                <marker date="1557989512637" expanded="false" signature="2021:2027" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Car/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +95,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DefaultCar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Car/DefaultCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -105,13 +131,13 @@
         <option value="$PROJECT_DIR$/src/Car.java" />
         <option value="$PROJECT_DIR$/src/CrossRoad.java" />
         <option value="$PROJECT_DIR$/src/DefaultCrossRoad.java" />
-        <option value="$PROJECT_DIR$/src/Car/DefaultCar.java" />
-        <option value="$PROJECT_DIR$/src/Car/Car.java" />
         <option value="$PROJECT_DIR$/src/Window.form" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Window.java" />
         <option value="$PROJECT_DIR$/src/CrossRoad/DefaultCrossRoad.java" />
         <option value="$PROJECT_DIR$/src/CrossRoad/Semafor.java" />
+        <option value="$PROJECT_DIR$/src/Car/Car.java" />
+        <option value="$PROJECT_DIR$/src/Car/DefaultCar.java" />
         <option value="$PROJECT_DIR$/src/CrossRoad/CrossRoad.java" />
       </list>
     </option>
@@ -675,15 +701,15 @@
       <workItem from="1556171617275" duration="777000" />
       <workItem from="1557466992177" duration="2509000" />
       <workItem from="1557470049929" duration="509000" />
-      <workItem from="1557984669906" duration="3287000" />
+      <workItem from="1557984669906" duration="4887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15365000" />
+    <option name="totallyTimeSpent" value="16965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -759,7 +785,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#95#96#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -786,8 +812,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1557987870062" expanded="false" signature="1729:1740" ph=" { " />
-            <marker date="1557987870062" expanded="false" signature="1770:1776" ph=" }" />
+            <marker date="1557989512637" expanded="false" signature="1980:1991" ph=" { " />
+            <marker date="1557989512637" expanded="false" signature="2021:2027" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -816,7 +842,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#95#96#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -849,7 +875,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#95#96#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -859,8 +885,8 @@
         <state relative-caret-position="102">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#119#120#0" expanded="false" />
-            <element signature="e#142#143#0" expanded="false" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -871,8 +897,8 @@
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1557987870062" expanded="false" signature="1729:1740" ph=" { " />
-            <marker date="1557987870062" expanded="false" signature="1770:1776" ph=" }" />
+            <marker date="1557989512637" expanded="false" signature="1980:1991" ph=" { " />
+            <marker date="1557989512637" expanded="false" signature="2021:2027" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -910,7 +936,7 @@
         <state relative-caret-position="170">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="e#95#96#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -920,8 +946,8 @@
         <state relative-caret-position="153">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#119#120#0" expanded="false" />
-            <element signature="e#142#143#0" expanded="false" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,8 +958,8 @@
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1557987870062" expanded="false" signature="1729:1740" ph=" { " />
-            <marker date="1557987870062" expanded="false" signature="1770:1776" ph=" }" />
+            <marker date="1557989512637" expanded="false" signature="1980:1991" ph=" { " />
+            <marker date="1557989512637" expanded="false" signature="2021:2027" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -963,7 +989,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#95#96#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -973,8 +999,8 @@
         <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#119#120#0" expanded="false" />
-            <element signature="e#142#143#0" expanded="false" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,8 +1011,8 @@
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1557987870062" expanded="false" signature="1729:1740" ph=" { " />
-            <marker date="1557987870062" expanded="false" signature="1770:1776" ph=" }" />
+            <marker date="1557989512637" expanded="false" signature="1980:1991" ph=" { " />
+            <marker date="1557989512637" expanded="false" signature="2021:2027" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1023,16 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Car/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#95#96#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,17 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Car/DefaultCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#119#120#0" expanded="false" />
-            <element signature="e#142#143#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Aplikace/Aplikace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1142,18 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrossRoad/DefaultCrossRoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/javax/swing/JComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1178,25 +1171,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrossRoad/CrossRoad.java">
+    <entry file="file://$PROJECT_DIR$/src/Car/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="79" column="13" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1557987870062" expanded="false" signature="1729:1740" ph=" { " />
-            <marker date="1557987870062" expanded="false" signature="1770:1776" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Car/DefaultCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CrossRoad/Semafor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="161" column="1" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
+        <state relative-caret-position="1022">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
           <folding>
             <element signature="e#3876#3877#0" expanded="true" />
             <element signature="e#3901#3902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CrossRoad/DefaultCrossRoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CrossRoad/CrossRoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1557989512637" expanded="false" signature="1980:1991" ph=" { " />
+            <marker date="1557989512637" expanded="false" signature="2021:2027" ph=" }" />
           </folding>
         </state>
       </provider>

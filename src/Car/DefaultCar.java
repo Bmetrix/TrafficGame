@@ -10,13 +10,13 @@ public class DefaultCar extends Car
 
     public DefaultCar()
     {
-        super();
+        super(1,1,1);
     }
 
     public DefaultCar(Color color)
     {
 
-        super(color);
+        super(1,1,1);
     }
 
 }
