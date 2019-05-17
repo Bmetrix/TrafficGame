@@ -16,7 +16,7 @@ import javax.imageio.ImageIO;
 public abstract class CrossRoad extends JPanel /*implements ActionListener*/{
 
     private Image  image;
-    //Semafor s1, s2, s3, s4;
+
     private Car c = new Car(2,270,1);
     private Car c2 = new Car(531,210,3);
     private Semafor s2 = new Semafor(/*30, 30, 30, 30, g*/);
@@ -26,19 +26,7 @@ public abstract class CrossRoad extends JPanel /*implements ActionListener*/{
     private Timer tm = new Timer(5, this::actionPerformed);
 
     int i = 0;
-    //public JButton b1,b2,b3,b4;
 
-
-    /*private void mouseClicked(ActionEvent actionEvent) {
-        s1.clicked();
-        s2.clicked();
-        s3.clicked();
-        s4.clicked();
-
-        i++;
-        System.out.println(i);
-        //repaint();
-    }*/
     public void actionPerformed(ActionEvent e)
     {
         c.moving();
@@ -53,22 +41,12 @@ public abstract class CrossRoad extends JPanel /*implements ActionListener*/{
         g2d.drawImage(image,0,0,  getWidth(), getHeight(), this);
         c.paint(g);
         c2.paint(g);
-
-        /*s2 = new Semafor(30, 30, 30, 30, g);
-        s3 = new Semafor(400, 40, 40, 40, g);
-        s4 = new Semafor(50, 50, 50, 50, g);*/
-        /*s2.paint(g,350,75);
-        s3.paint(g,350,330);
-        s4.paint(g,140,75);
-        s1.paint(g,140,330);*/
-
-
     }
     BufferedImage img;
+
     public CrossRoad()
     {
         this(new ImageIcon("D:\\TrafficGame\\src\\CrossRoad\\Pictures\\DefaultCrossRoad.png").getImage());
-     //   tm2.start();
     }
 
     public Dimension getPreferredSize() {
